@@ -1,0 +1,17 @@
+
+http://localhost:8200/poc-flight-service/find-flight-by-id/201/user1/password
+
+http://localhost:8200/poc-flight-service/flights-by-source-destination/Hyderabad/Prayagraj/user1/password
+
+http://localhost:8200/poc-flight-service/add-flight/admin/admin/admin
+{
+    "flightId": 201,
+    "source": "Hyderabad",
+    "destination": "Prayagraj",
+    "availSeats": 30,
+    "tClass": "E",
+    "departureDate": "22-02-2023",
+    "departureTime": "10-00am",
+    "fare": 4999.0
+}
+
